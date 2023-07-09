@@ -202,3 +202,9 @@ main section{
    }
 
 /* Footer Related Styles */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 115px;
+}
