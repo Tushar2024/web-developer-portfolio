@@ -204,7 +204,40 @@ main section{
 /* Footer Related Styles */
 footer{
     display: flex;
+    gap: 100px;
+    /* justify-content: left; */
+    /* align-items: ; */
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 115px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.link-spacing{
+    margin: 30px 24px;
+}
+.contact input, textarea{
+    display: block;
+}
+.input-design{
+    color: #757575;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 24px;
+    padding-left: 30px;
+}
+.textarea-design{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    padding-top: 18px;
 }
